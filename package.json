@@ -1,0 +1,44 @@
+{
+  "name": "@customergpt/mcp",
+  "version": "0.1.0",
+  "description": "CustomerGPT MCP server launcher — run the CustomerGPT Model Context Protocol server locally (npx @customergpt/mcp) or connect to the hosted endpoint at https://api.customergpt.ai/api/mcp.",
+  "type": "module",
+  "bin": {
+    "customergpt-mcp": "bin/customergpt-mcp.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "prepack": "npm test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "customergpt",
+    "mcp",
+    "model-context-protocol",
+    "chatbot",
+    "customer-support",
+    "ai-agent"
+  ],
+  "homepage": "https://customergpt.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xursand7777/customergpt-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Xursand7777/customergpt-mcp/issues"
+  }
+}
