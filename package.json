@@ -31,7 +31,9 @@
     "model-context-protocol",
     "chatbot",
     "customer-support",
-    "ai-agent"
+    "ai-agent",
+    "ai",
+    "support-automation"
   ],
   "homepage": "https://customergpt.ai",
   "repository": {
