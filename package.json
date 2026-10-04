@@ -1,6 +1,6 @@
 {
   "name": "@customergpt/mcp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "CustomerGPT MCP server launcher — run the CustomerGPT Model Context Protocol server locally (npx @customergpt/mcp) or connect to the hosted endpoint at https://api.customergpt.ai/api/mcp.",
   "type": "module",
   "bin": {
